@@ -18,4 +18,15 @@ I’ll need to install Jupyter Lab to run your code. Get to your command prompt 
 [Image](https://github.com/Ernar363/Advanced-Python-Project-Detecting-Fake-News/raw/master/images/4.png)
 Output Screenshot: [Image](https://github.com/Ernar363/Advanced-Python-Project-Detecting-Fake-News/raw/master/images/5.png)
 
+3. Then get the tags from the DataFrame:
+[Image](https://github.com/Ernar363/Advanced-Python-Project-Detecting-Fake-News/raw/master/images/6.png)
+Output Screenshot: [Image](https://github.com/Ernar363/Advanced-Python-Project-Detecting-Fake-News/raw/master/images/7.png)
 
+4. I divide the data set into training and test sets.
+[Image](https://github.com/Ernar363/Advanced-Python-Project-Detecting-Fake-News/raw/master/images/8.png)
+Output Screenshot: [Image](https://github.com/Ernar363/Advanced-Python-Project-Detecting-Fake-News/raw/master/images/9.png)
+
+5. 5. Now initialize TfidfVectorizer using stop words from the English language and a maximum frequency of documents of 0.7 (terms with a higher frequency of documents will be discarded). Stop words are the most common words in a language that need to be filtered out before processing data in a natural language. And TfidfVectorizer turns a collection of raw documents into a matrix of TF-IDF functions.
+
+Now install and convert the vectorizer into a set of trains and convert the vectorizer into a test set.
+Output Screenshot: [Image](https://github.com/Ernar363/Advanced-Python-Project-Detecting-Fake-News/raw/master/images/10.png)
