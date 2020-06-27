@@ -26,7 +26,21 @@ Output Screenshot: [Image](https://github.com/Ernar363/Advanced-Python-Project-D
 [Image](https://github.com/Ernar363/Advanced-Python-Project-Detecting-Fake-News/raw/master/images/8.png)
 Output Screenshot: [Image](https://github.com/Ernar363/Advanced-Python-Project-Detecting-Fake-News/raw/master/images/9.png)
 
-5. 5. Now initialize TfidfVectorizer using stop words from the English language and a maximum frequency of documents of 0.7 (terms with a higher frequency of documents will be discarded). Stop words are the most common words in a language that need to be filtered out before processing data in a natural language. And TfidfVectorizer turns a collection of raw documents into a matrix of TF-IDF functions.
+5. Now initialize TfidfVectorizer using stop words from the English language and a maximum frequency of documents of 0.7 (terms with a higher frequency of documents will be discarded). Stop words are the most common words in a language that need to be filtered out before processing data in a natural language. And TfidfVectorizer turns a collection of raw documents into a matrix of TF-IDF functions.
 
 Now install and convert the vectorizer into a set of trains and convert the vectorizer into a test set.
 Output Screenshot: [Image](https://github.com/Ernar363/Advanced-Python-Project-Detecting-Fake-News/raw/master/images/10.png)
+
+6. Next, we’ll initialize a PassiveAggressiveClassifier.
+Then, I’ll predict on the test set from the TfidfVectorizer and calculate the accuracy with accuracy_score() from sklearn.metrics.
+[Image](https://github.com/Ernar363/Advanced-Python-Project-Detecting-Fake-News/raw/master/images/11.png)
+Output Screenshot: 
+[Image](https://github.com/Ernar363/Advanced-Python-Project-Detecting-Fake-News/raw/master/images/12.png)
+
+7. I got an accuracy of 92.74% with this model. Finally, let’s print out a confusion matrix to gain insight into the number of false and true negatives and positives:
+[Image](https://github.com/Ernar363/Advanced-Python-Project-Detecting-Fake-News/raw/master/images/13.png)
+
+So with this model, we have 590 true positives, 585 true negatives, 44 false positives, and 48 false negatives.
+
+# Summary
+Today, I learned to detect fake news with Python. I took a political dataset, implemented a TfidfVectorizer, initialized a PassiveAggressiveClassifier, and fit our model. We ended up obtaining an accuracy of 92.74% in magnitude.
