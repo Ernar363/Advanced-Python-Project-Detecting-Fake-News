@@ -3,4 +3,4 @@ This advanced python project of detecting fake news deals with fake and real new
 
 # Prerequisites
 I’ll need to install the following libraries with pip:
-
+[Image alt](https://github.com/Ernar363/Advanced-Python-Project-Detecting-Fake-News/raw/master/images/pip install.png)
