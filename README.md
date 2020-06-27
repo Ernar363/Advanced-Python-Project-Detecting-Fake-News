@@ -11,5 +11,11 @@ I’ll need to install the following libraries with pip:
 I’ll need to install Jupyter Lab to run your code. Get to your command prompt and run the following command:
 [Image](https://github.com/Ernar363/Advanced-Python-Project-Detecting-Fake-News/raw/master/images/2.png)
 
-Made the import of the necessary libraries for the project:
+1. Made the import of the necessary libraries for the project:
 [Image](https://github.com/Ernar363/Advanced-Python-Project-Detecting-Fake-News/raw/master/images/3.png)
+
+2. Now, let’s read the data into a DataFrame, and get the shape of the data and the first 5 records:
+[Image](https://github.com/Ernar363/Advanced-Python-Project-Detecting-Fake-News/raw/master/images/4.png)
+Output Screenshot: [Image](https://github.com/Ernar363/Advanced-Python-Project-Detecting-Fake-News/raw/master/images/5.png)
+
+
